@@ -1,25 +1,13 @@
-import { join } from 'path'
-import type { Config } from 'tailwindcss'
-import forms from '@tailwindcss/forms';
+import aspectRatio from '@tailwindcss/aspect-ratio';
 import typography from '@tailwindcss/typography';
-import { skeleton } from '@skeletonlabs/tw-plugin';
-import { jm7_theme } from './src/jm7_theme'
+import type { Config } from 'tailwindcss';
 
 export default {
-	darkMode: 'class',
-	content: ['./src/**/*.{html,js,svelte,ts}', join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+
 	theme: {
-		extend: {},
+		extend: {}
 	},
-	plugins: [
-		forms,
-		typography,
-		skeleton({
-			themes: {
-				custom: [
-					jm7_theme,
-				],
-			},
-		}),
-	],
+
+	plugins: [typography, aspectRatio]
 } satisfies Config;

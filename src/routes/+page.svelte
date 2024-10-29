@@ -1,9 +1,2 @@
-<script>
-	import Header from "$lib/components/Header.svelte";
-	import Main from "$lib/components/Main.svelte";
-</script>
-
-<div class="lg:flex lg:justify-between lg:gap-4">
-	<Header></Header>
-	<Main></Main>
-</div>
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
