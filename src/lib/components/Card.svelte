@@ -1,7 +1,11 @@
 <script lang="ts">
   import type { Experience, Project }  from "$lib/types/types";
   
-  export let data: Experience | Project;
+  interface Props {
+    data: Experience | Project;
+  }
+
+  let { data }: Props = $props();
   
   const isExperience = (data: Experience | Project): data is Experience => {
     return (data as Experience).role !== undefined;
