@@ -33,10 +33,10 @@
           </div>
         </li>
         <li>
-          <div class="group flex items-center py-3 cursor-not-allowed">
-            <span class="nav-indicator mr-4 h-px w-8 bg-surface-400 transition-all group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none"></span>
-            <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-400 group-focus-visible:text-white">Blog (coming soon)</span>
-          </div>
+          <a class="group flex items-center py-3" href="/blog">
+            <span class="nav-indicator mr-4 h-px w-8 bg-surface-300 transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none"></span>
+            <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-300 group-hover:text-white group-focus-visible:text-white">Blog</span>
+          </a>
         </li>
       </ul>
     </nav>

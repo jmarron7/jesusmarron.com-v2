@@ -20,7 +20,7 @@
   </header>
   {:else if isProject(data)}
   <div class="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-surface-300 sm:col-span-2">
-    <img src={"images/" + data.imagePath} alt={"Preview image of " + data.title} loading="lazy" width="200" height="48" decoding="async" class="rounded border-2 border-green-800/90 transition group-hover:border-green-500 sm:order-1 sm:col-span-2 " />
+    <img src={"images/" + data.imagePath} alt={"Preview image of " + data.title} loading="lazy" width="200" height="48" decoding="async" class="rounded border-2 border-green-800/90 transition group-hover:border-green-500 sm:order-1 sm:col-span-2" />
   </div>
   {/if}
   <div class="z-10 sm:col-span-6">
