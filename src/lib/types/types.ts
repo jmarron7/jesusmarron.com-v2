@@ -1,4 +1,4 @@
-export interface Experience {
+export type Experience = {
   role: string;
   company: string;
   companyUrl: string;
@@ -8,7 +8,7 @@ export interface Experience {
   tech: string[];
 }
 
-export interface Project {
+export type Project = {
   title: string;
   imagePath: string;
   description: string;
@@ -16,3 +16,22 @@ export interface Project {
   repoLink?: string;
   demoLink?: string;
 }
+
+export type BlogPost = {
+	title: string;
+	date: string;
+	slug: string;
+  tldr: string;
+	tags: string[];
+};
+
+export type MarkdownModule = {
+  metadata: {
+    title: string;
+    date: string;
+    slug: string;
+    tldr: string;
+    tags: string[];
+  };
+  default: any;
+};
