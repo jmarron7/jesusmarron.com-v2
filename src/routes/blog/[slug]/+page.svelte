@@ -26,7 +26,7 @@
 	
 	<article>
 		<section class="mb-4 border-b border-green-500">
-			<h1 class="text-4xl font-bold">{data.metadata.title}</h1>
+			<h1 class="text-4xl font-bold tracking-tight sm:text-5xl">{data.metadata.title}</h1>
 			<div class="mb-3 inline-flex items-center leading-tight text-sm font-semibold text-surface-300">
 				<time datetime={data.metadata.date}>{formattedDate}</time>
 				<span class="mx-2">·</span>
