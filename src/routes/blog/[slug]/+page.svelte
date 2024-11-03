@@ -33,6 +33,7 @@
 				<p>Jesus Marron</p>
 			</div>
 		</section>
+		<!-- TLDR Section -->
 		{#if data.metadata.tldr}
 		<section class="mb-4 border-b border-green-500">
 				<p class="mb-4 text-surface-200">

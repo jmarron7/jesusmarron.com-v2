@@ -3,7 +3,7 @@
     <h3 class="text-md font-semibold uppercase tracking-widest lg:sr-only">[About]</h3>
   </div>
   <p class="text-surface-200 mb-4">
-    Back in middle school, I started coding by developing game mods in Lua and creating programs for calculators using TI-Basic. 
+    Back in middle and high school, I started coding by developing game mods in Lua and creating programs for calculators using TI-Basic. 
     That early curiosity has since evolved into a rewarding career, giving me the opportunity to manage systems and build software for a 
     <a class="font-semibold text-white hover:text-green-500 hover:underline focus-visible:text-green-500 focus-visible:underline" href="https://www.terminix.com" target="_blank" rel="noreferrer noopener" aria-label="pest control company (opens a new tab)">pest control company</a>, an 
     <a class="font-semibold text-white hover:text-green-500 hover:underline focus-visible:text-green-500 focus-visible:underline" href="https://www.theseam.com" target="_blank" rel="noreferrer noopener" aria-label="ag-tech company (opens a new tab)">ag-tech company</a>, and a 
@@ -15,7 +15,7 @@
     that enable clients to manage and perform supply chain operations across North America. I enjoy working across the stack, from database design to building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
   </p>
   <p class="text-surface-200 mb-4">
-    Lately, I've been obsessed with Go and have been using it for various projects behind the scenes alongside Svelte for any frontend interfaces I may need. Also curious about Zig, Elixir, storage, graphics programming, and distributed systems.
+    Lately, I've been obsessed with Go and have been using it for various projects behind the scenes alongside Svelte for any frontend interfaces I may need. Other things that I've curious about are Neovim, storage, graphics programming, and distributed systems.
   </p>
   <p class="text-surface-200 mb-4">
     When I'm not at my computer, you can find me binging TV shows, on a walk at the park, or attempting a new recipe.

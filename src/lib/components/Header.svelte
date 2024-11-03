@@ -2,6 +2,13 @@
   
 </script>
 <header class="grid-background relative lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+  <!-- Breadcrumb Nav -->
+	<nav class="mb-3 inline-flex items-center leading-tight text-base lg:hidden">
+		<span class="text-green-500">/</span>
+		<a href="/" class="font-semibold mx-1 hover:text-green-500 hover:underline">Home</a>
+		<span class="text-green-500">/</span>
+		<a href="/blog" class="font-semibold mx-1 hover:text-green-500 hover:underline">Blog</a>
+	</nav>
   <div>
     <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
       Jesus Marron
