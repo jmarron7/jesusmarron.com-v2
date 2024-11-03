@@ -2,7 +2,9 @@
 	export let data;
 
 	function formatDate(dateString: string): string {
-		const date = new Date(dateString);
+		const [year, month, day] = dateString.split('-').map(Number);
+		const date = new Date(year, month - 1, day);
+		
 		return date.toLocaleDateString('en-US', {
 			year: 'numeric',
 			month: 'long',
@@ -10,7 +12,7 @@
 		});
 	}
 
-	const formatteddate = formatDate(data.metadata.date);
+	const formattedDate = formatDate(data.metadata.date);
 </script>
 
 <div class="flex flex-col lg:py-24">
@@ -26,7 +28,7 @@
 		<section class="mb-4 border-b border-green-500">
 			<h1 class="text-4xl font-bold">{data.metadata.title}</h1>
 			<div class="mb-3 inline-flex items-center leading-tight text-sm font-semibold text-surface-300">
-				<time datetime={data.metadata.date}>{formatteddate}</time>
+				<time datetime={data.metadata.date}>{formattedDate}</time>
 				<span class="mx-2">·</span>
 				<p>Jesus Marron</p>
 			</div>
