@@ -7,7 +7,7 @@
   
   let displayedCount = 15;
   
-  function loadMore() {
+  function loadMore(): void {
     displayedCount += 15;
   }
   

@@ -1,6 +1,3 @@
-<script>
-  
-</script>
 <header class="grid-background relative lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
   <!-- Breadcrumb Nav -->
 	<nav class="mb-3 inline-flex items-center leading-tight text-base lg:hidden">
