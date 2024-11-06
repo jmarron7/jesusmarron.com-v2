@@ -7,6 +7,80 @@ export default {
 
 	theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#c8c9c9', // Base color for text in prose
+            fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace',
+            fontSize: '1rem', // Base font size
+
+            h1: {
+              color: '#ffffff',
+              fontWeight: '700',
+              fontSize: '2.25rem', // Adjust H1 font size
+              fontFamily: 'inherit',
+            },
+            h2: {
+              color: '#ffffff',
+              fontWeight: '600',
+              fontSize: '1.875rem', // Adjust H2 font size
+              fontFamily: 'inherit',
+            },
+            h3: {
+              color: '#ffffff',
+              fontWeight: '500',
+              fontSize: '1.5rem', // Adjust H3 font size
+              fontFamily: 'inherit',
+            },
+            h4: {
+              color: '#ffffff',
+              fontWeight: '500',
+              fontSize: '1.25rem', // Adjust H3 font size
+              fontFamily: 'inherit',
+            },
+            h5: {
+              color: '#ffffff',
+              fontWeight: '500',
+              fontSize: '1.125rem', // Adjust H3 font size
+              fontFamily: 'inherit',
+            },
+            h6: {
+              color: '#ffffff',
+              fontWeight: '500',
+              fontSize: '1rem', // Adjust H3 font size
+              fontFamily: 'inherit',
+            },
+            p: {
+              fontSize: '1rem', // Adjust paragraph font size
+              fontFamily: 'inherit',
+            },
+            a: {
+              color: '#ffffff',
+              '&:hover': {
+                color: '#68cc58',
+              },
+              fontWeight: '600',
+            },
+            code: {
+              fontSize: '0.875rem', // Code font size
+              color: '#e5e7eB',
+              backgroundColor: '#1f2937',
+              padding: '0.2em 0.4em',
+              borderRadius: '4px',
+            },
+            strong: {
+              color: '#ffffff',
+              fontWeight: '700',
+            },
+            blockquote: {
+              color: '#c8c9c9',
+              fontSize: '1.125rem', 
+              fontStyle: 'italic',
+              borderLeftColor: '#cbd5e0',
+            },
+          },
+        },
+      },
       colors: {
         grey: {
           50: 'rgb(239, 241, 244)',

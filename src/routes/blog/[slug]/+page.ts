@@ -1,5 +1,5 @@
+import type { MarkdownModule } from "$lib/types/types";
 import { error } from "@sveltejs/kit";
-import type { MarkdownModule } from "../+page";
 
 const posts = import.meta.glob('$content/posts/*.md');
 
