@@ -1,27 +1,14 @@
 <script lang="ts">
+	import posthog from 'posthog-js'
 	import { browser } from '$app/environment';
+	import { beforeNavigate, afterNavigate } from '$app/navigation';
+	
 	import '../app.css';
 	
-	// const posthogApiKey = import.meta.env.VITE_POSTHOG_API_KEY;
-	// const posthogApiHost = import.meta.env.VITE_POSTHOG_API_HOST;
-
-	// export const load = async () => {
-		
-	// 	if (browser) {
-	// 		posthog.init(
-	// 		posthogApiKey,
-	// 		{ 
-	// 			api_host: posthogApiHost,
-	// 			person_profiles: 'always',
-	// 			capture_pageview: true,
-	// 			capture_pageleave: true,
-	// 			capture_performance: true,
-	// 		}
-	// 		)
-	// 	}
-	// 	return
-	// };
-	
+	if (browser) {
+		beforeNavigate(() => posthog.capture('$pageleave'));
+		afterNavigate(() => posthog.capture('$pageview'));
+	}
 	let { children } = $props();
 </script>
 
