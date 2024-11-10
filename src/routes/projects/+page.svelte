@@ -1,6 +1,6 @@
 <script>
-	import BreadcrumbNav from "$lib/components/BreadcrumbNav.svelte";
-
+	import Navbar from "$lib/components/Navbar.svelte";
 </script>
-<BreadcrumbNav></BreadcrumbNav>
+
+<Navbar></Navbar>
 <p>projects</p>

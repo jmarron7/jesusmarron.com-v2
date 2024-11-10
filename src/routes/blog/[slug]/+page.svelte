@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
+import { onMount } from 'svelte';
 	
 	
 	export let data;
@@ -30,14 +31,8 @@
 </script>
 
 <div class="flex flex-col lg:py-24">
-	<!-- Breadcrumb Nav -->
-	<nav class="mb-3 inline-flex items-center leading-tight text-base">
-		<span class="text-green-500">/</span>
-		<a href="/" class="font-semibold mx-1 hover:text-green-500 hover:underline">Home</a>
-		<span class="text-green-500">/</span>
-		<a href="/blog" class="font-semibold mx-1 hover:text-green-500 hover:underline">Blog</a>
-	</nav>
-	
+	 <Navbar></Navbar>
+	 
 	<article>
 		<section class="mb-4 border-b border-green-500" aria-label="Metadata for blog post {data.metadata.title}">
 			<div class="mb-2 inline-flex items-center leading-tight text-sm font-semibold text-surface-300">

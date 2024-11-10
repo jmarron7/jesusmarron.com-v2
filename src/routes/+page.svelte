@@ -1,8 +1,14 @@
-<script>
+<script lang="ts">
 	import Header from "$lib/components/Header.svelte";
 	import Main from "$lib/components/Main.svelte";
+	import type { BlogPost } from "$lib/types/types";
+
+	export let data: {
+    posts: BlogPost[];
+  };
+
 </script>
 <div class="lg:flex lg:justify-between lg:gap-4">
 	<Header></Header>
-	<Main></Main>
+	<Main posts={data.posts}></Main>
 </div>

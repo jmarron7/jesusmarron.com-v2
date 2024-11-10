@@ -4,7 +4,6 @@ import { browser } from '$app/environment';
 const posthogApiKey = import.meta.env.VITE_POSTHOG_API_KEY;
 const posthogApiHost = import.meta.env.VITE_POSTHOG_API_HOST;
 
-
 export const load = async () => {
   if (browser) {
     posthog.init(

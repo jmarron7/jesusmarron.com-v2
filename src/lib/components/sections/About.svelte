@@ -1,6 +1,6 @@
-<section id="about" class="mb-16 scroll-mt-16 lg:scroll-mt-24" aria-label="About me">
-  <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-surface-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-    <h3 class="text-md font-semibold uppercase tracking-widest lg:sr-only">[About]</h3>
+<section id="about" class="mb-8 scroll-mt-16 lg:scroll-mt-24" aria-label="About me">
+  <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-surface-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
+    <h3 class="text-md font-semibold uppercase tracking-widest">[About]</h3>
   </div>
   <p class="text-surface-200 mb-4">
     Back in middle and high school, I started coding by developing game mods in Lua and creating programs for calculators using TI-Basic. 
@@ -17,7 +17,7 @@
   <p class="text-surface-200 mb-4">
     Lately, I've been obsessed with Go and have been using it for various projects behind the scenes alongside Svelte for any frontend interfaces I may need. Other things that I've curious about are Neovim, storage, graphics programming, and distributed systems.
   </p>
-  <p class="text-surface-200 mb-4">
+  <p class="text-surface-200">
     When I'm not at my computer, you can find me binging TV shows, on a walk at the park, or attempting a new recipe.
   </p>
 </section>

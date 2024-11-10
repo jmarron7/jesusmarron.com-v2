@@ -1,5 +1,5 @@
 <script lang="ts">
-  import BreadcrumbNav from "$lib/components/BreadcrumbNav.svelte";
+  import Navbar from "$lib/components/Navbar.svelte";
   import type { BlogPost } from "$lib/types/types";
   
   export let data: {
@@ -15,7 +15,7 @@
 </script>
 
 <section class="flex flex-col lg:py-24" aria-label="Blog">
-  <BreadcrumbNav></BreadcrumbNav>
+  <Navbar></Navbar>
   <h1 class="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Blog</h1>
   
   <!-- Display Blog Posts -->
@@ -38,5 +38,4 @@
     </button>
   </div>
   {/if}
-  
 </section>

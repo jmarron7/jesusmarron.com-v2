@@ -1,9 +1,9 @@
 <script>
-	import BreadcrumbNav from "./BreadcrumbNav.svelte";
+	import Navbar from "./Navbar.svelte";
 
 </script>
 <header class="grid-background relative lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-	<BreadcrumbNav></BreadcrumbNav>
+	<Navbar></Navbar>
   <div>
     <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
       Jesus Marron
@@ -14,8 +14,9 @@
     <p class="mt-4 max-w-xs leading-normal text-surface-200">
       I like building products that people will enjoy using. Heavily interested in all things performance, distributed systems, and developer tooling.
     </p>
-    <nav class="nav hidden lg:block" aria-label="Jump links to in-page sections">
-      <ul class="mt-16 w-max">
+    <nav class="nav hidden mt-16 w-max lg:block" aria-label="Jump links to in-page sections">
+      <p class="text-xs font-bold tracking-widest uppercase text-surface-300">Jump to:</p>
+      <ul>
         <li>
           <a class="group flex items-center py-3" href="#about">
             <span class="nav-indicator mr-4 h-px w-8 bg-surface-300 transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none"></span>
@@ -35,7 +36,7 @@
           </div>
         </li>
         <li>
-          <a class="group flex items-center py-3" href="/blog">
+          <a class="group flex items-center py-3" href="#blog">
             <span class="nav-indicator mr-4 h-px w-8 bg-surface-300 transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none"></span>
             <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-300 group-hover:text-white group-focus-visible:text-white">Blog</span>
           </a>
