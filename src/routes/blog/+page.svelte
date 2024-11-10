@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BreadcrumbNav from "$lib/components/BreadcrumbNav.svelte";
   import type { BlogPost } from "$lib/types/types";
   
   export let data: {
@@ -14,12 +15,7 @@
 </script>
 
 <section class="flex flex-col lg:py-24" aria-label="Blog">
-  <!-- Breadcrumb Nav -->
-  <nav class="mb-3 inline-flex items-center leading-tight text-base">
-    <span class="text-green-500">/</span>
-    <a href="/" class="font-semibold mx-1 hover:text-green-500 hover:underline">Home</a>
-  </nav>
-
+  <BreadcrumbNav></BreadcrumbNav>
   <h1 class="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Blog</h1>
   
   <!-- Display Blog Posts -->
