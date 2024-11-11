@@ -62,9 +62,10 @@ export default {
               fontWeight: '600',
             },
             code: {
-              fontSize: '0.875rem', // Code font size
-              color: '#e5e7eB',
-              backgroundColor: '#1f2937',
+              fontSize: '0.875rem',
+              fontWeight: '500',
+              color: '#D3C6AA',
+              backgroundColor: '#2d353b',
               padding: '0.2em 0.4em',
               borderRadius: '4px',
             },
