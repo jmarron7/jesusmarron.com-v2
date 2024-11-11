@@ -12,7 +12,7 @@
   <p class="text-surface-200 mb-4">
     Currently, I'm focused on building web applications at
     <a class="font-semibold text-white hover:text-green-500 hover:underline focus-visible:text-green-500 focus-visible:underline" href="https://www.fedex.com" target="_blank" rel="noreferrer noopener" aria-label="FedEx (opens a new tab)">FedEx</a>
-    that enable clients to manage and perform supply chain operations across North America. I enjoy working across the stack, from database design to building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
+    that enable users to manage and perform supply chain operations across North America. I enjoy working across the stack, from database design to building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
   </p>
   <p class="text-surface-200 mb-4">
     Lately, I've been obsessed with Go and have been using it for various projects behind the scenes alongside Svelte for any frontend interfaces I may need. Other things that I've curious about are storage, graphics programming, machine learning, and distributed systems.
