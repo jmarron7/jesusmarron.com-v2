@@ -15,6 +15,6 @@
     that enable users to manage and perform supply chain operations across North America. I enjoy working across the stack, from database design to building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
   </p>
   <p class="text-surface-200 mb-4">
-    Lately, I've been obsessed with Go and Sveltekit and have been using both for various projects behind the scenes. Other things that I've been curious about lately are storage, graphics programming, and distributed systems.
+    Lately, I've been obsessed with Go and Sveltekit and have been using both for various projects behind the scenes. Other areas I've been exploring are storage, graphics programming, and distributed systems.
   </p>
 </section>
