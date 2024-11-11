@@ -17,7 +17,4 @@
   <p class="text-surface-200 mb-4">
     Lately, I've been obsessed with Go and have been using it for various projects behind the scenes alongside Svelte for any frontend interfaces I may need. Other things that I've curious about are Neovim, storage, graphics programming, and distributed systems.
   </p>
-  <p class="text-surface-200">
-    When I'm not at my computer, you can find me binging TV shows, on a walk at the park, or attempting a new recipe.
-  </p>
 </section>
