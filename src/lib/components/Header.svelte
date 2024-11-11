@@ -21,14 +21,14 @@
       <ul>
         <li>
           <a class="group flex items-center py-3" href="#about">
-            <span class="nav-indicator mr-4 h-px w-8 bg-surface-300 transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#about' ? 'w-16 bg-surface-200' : ''}"></span>
-            <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-300 group-hover:text-white group-focus-visible:text-white {currentSection === '#about' ? 'text-white' : ''}">About</span>
+            <span class="nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#about' ? 'w-16 bg-surface-200' : 'w-8 bg-surface-300'}"></span>
+            <span class="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-white group-focus-visible:text-white {currentSection === '#about' ? 'text-white' : 'text-surface-300'}">About</span>
           </a>
         </li>
         <li>
           <a class="group flex items-center py-3" href="#experience">
-            <span class="nav-indicator mr-4 h-px w-8 bg-surface-300 transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#experience' ? 'w-16 bg-surface-200' : ''}"></span>
-            <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-300 group-hover:text-white group-focus-visible:text-white {currentSection === '#experience' ? 'text-white' : ''}">Experience</span>
+            <span class="nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#experience' ? 'w-16 bg-surface-200' : 'w-8 bg-surface-300'}"></span>
+            <span class="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-white group-focus-visible:text-white {currentSection === '#experience' ? 'text-white' : 'text-surface-300'}">Experience</span>
           </a>
         </li>
         <li>
@@ -39,8 +39,8 @@
         </li>
         <li>
           <a class="group flex items-center py-3" href="#blog">
-            <span class="nav-indicator mr-4 h-px w-8 bg-surface-300 transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#blog' ? 'w-16 bg-surface-200' : ''}"></span>
-            <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-300 group-hover:text-white group-focus-visible:text-white {currentSection === '#blog' ? 'text-white' : ''}">Blog</span>
+            <span class="nav-indicator mr-4 h-px  transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#blog' ? 'w-16 bg-surface-200' : 'w-8 bg-surface-300'}"></span>
+            <span class="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-white group-focus-visible:text-white {currentSection === '#blog' ? 'text-white' : 'text-surface-300'}">Blog</span>
           </a>
         </li>
       </ul>
