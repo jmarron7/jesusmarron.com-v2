@@ -3,7 +3,6 @@
 	import Navbar from "./Navbar.svelte";
 
   let currentSection = $derived($page.url.hash);
-  console.log("Current Section:", currentSection)
 </script>
 <header class="grid-background relative lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
 	<Navbar></Navbar>
