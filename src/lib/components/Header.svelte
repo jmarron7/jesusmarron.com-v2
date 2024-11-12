@@ -10,7 +10,7 @@
     <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
       Jesus Marron
     </h1>
-    <h2 class="mt-3 text-lg font-medium tracking-tight">
+    <h2 class="mt-3 text-lg font-medium tracking-tight underline decoration-2 decoration-green-500">
       Software Engineer @ FedEx
     </h2>
     <p class="mt-4 max-w-xs leading-normal text-surface-200">
