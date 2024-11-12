@@ -14,6 +14,12 @@
   
 </script>
 
+<svelte:head>
+	<title>Jesus Marron — Blog</title>
+  <meta name="title" content="Jesus Marron - Blog" />
+	<meta name="description" content="A place where I can dump my learnings, thoughts, plans, and rants. Some technical. Some not. All me." />
+</svelte:head>
+
 <section class="flex flex-col lg:py-24" aria-label="Blog">
   <Navbar></Navbar>
   <h1 class="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Blog</h1>
