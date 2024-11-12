@@ -10,9 +10,7 @@
     <a class="font-semibold text-white hover:text-green-500 hover:underline focus-visible:text-green-500 focus-visible:underline" href="https://www.blackbaud.com" target="_blank" rel="noreferrer noopener" aria-label="cloud computing provider (opens a new tab)">cloud computing provider</a>.
   </p>
   <p class="text-surface-200 mb-4">
-    Currently, I'm focused on building web applications at
-    <a class="font-semibold text-white hover:text-green-500 hover:underline focus-visible:text-green-500 focus-visible:underline" href="https://www.fedex.com" target="_blank" rel="noreferrer noopener" aria-label="FedEx (opens a new tab)">FedEx</a>
-    that enable users to manage and perform supply chain operations across North America. I enjoy working across the stack, from database design to building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
+    Currently, I'm enjoying working across the stack. Some days I'm doing database design and others I'm building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
   </p>
   <p class="text-surface-200 mb-4">
     Lately, I've been obsessed with Go and Sveltekit and have been using both for various projects behind the scenes. Other areas I've been exploring are storage, graphics programming, and distributed systems.

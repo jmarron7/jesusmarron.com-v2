@@ -11,7 +11,7 @@
       Jesus Marron
     </h1>
     <h2 class="mt-3 text-lg font-medium tracking-tight">
-      Software Engineer
+      Software Engineer @ FedEx
     </h2>
     <p class="mt-4 max-w-xs leading-normal text-surface-200">
       I like building products that people will enjoy using. Heavily interested in all things performance, distributed systems, and developer tooling.
