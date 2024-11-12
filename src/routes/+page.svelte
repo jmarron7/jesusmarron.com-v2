@@ -12,7 +12,7 @@
 <svelte:head>
 	<title>Jesus Marron — Software Engineer</title>
   <meta name="title" content="Jesus Marron - Software Engineer" />
-	<meta name="description" content="Software Engineer with experience in Full-Stack Web Development and Platform Engineering based in Memphis, TN." />
+	<meta name="description" content="Software Engineer experienced in Fullstack Web Development and Platform Engineering based in Memphis, TN." />
 </svelte:head>
 
 <div class="lg:flex lg:justify-between lg:gap-4">
