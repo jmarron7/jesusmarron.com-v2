@@ -50,7 +50,7 @@ import { onMount } from 'svelte';
 		</section>
 		<!-- TLDR Section -->
 		{#if data.metadata.tldr}
-		<section class="mb-4 border-b border-green-500">
+		<section class="mb-6 border-b border-green-500">
 			<p class="mb-4 text-surface-200">
 				<span class="text-white font-semibold">
 					TLDR:
@@ -60,7 +60,7 @@ import { onMount } from 'svelte';
 		</section>
 		{/if}
 		<!-- Markdown Content -->
-		<section class="prose">
+		<section class="prose max-w-none w-full">
 			<svelte:component this={data.content} />
 		</section>
 	</article>
