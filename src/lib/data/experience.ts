@@ -6,7 +6,7 @@ export const experienceData: Experience[] = [
     companyUrl: "https://www.fedex.com",
     startDate: " OCT 2023",
     endDate: "PRESENT",
-    description: "Developed full-stack applications and maintained legacy systems to support operations for logistics services. Improved processes through performance optimizations, reducing data export time significantly, and enhancing application observability and monitoring systems. Led the upgrade of an Angular 11 project to Angular 17, addressing deprecated libraries to meet security compliance standards.",
+    description: "Developed full-stack applications and maintained legacy systems to support operations for logistics services. Improved processes through performance optimizations, reducing data export time significantly, and enhancing application observability and monitoring systems. Led the upgrade of an Angular 11 project to Angular 15, addressing deprecated libraries to meet security compliance standards.",
     tech: ["Java", "Spring", "Angular", "Typescript", "MySQL", "Oracle DB", "Jenkins", "Cypress", "ReadyAPI", "Splunk", "Grafana", "AppDynamics"]
   },
   {
