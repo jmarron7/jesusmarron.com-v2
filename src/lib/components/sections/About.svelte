@@ -13,6 +13,6 @@
     Currently, I'm enjoying working across the stack. Some days I'm doing database design and others I'm building interactive frontend components. My focus is often drawn to optimizing performance, ensuring reliability, and refining the overall user experience of the product.
   </p>
   <p class="text-surface-200 mb-4">
-    Lately, I've been obsessed with Go and Sveltekit and have been using both for various projects behind the scenes. Other areas I've been exploring are machine learning, graphics programming, and distributed systems.
+    I enjoy using Go and Sveltekit for fullstack applications in my own time. Lately, I've been learning Odin for lower level systems programming and game development. Other areas I've been exploring are machine learning, graphics programming, and distributed systems.
   </p>
 </section>
