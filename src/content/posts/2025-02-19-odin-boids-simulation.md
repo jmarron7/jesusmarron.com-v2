@@ -2,7 +2,7 @@
 title: 'How I Created a Boids Simulation in Odin and Raylib'
 slug: 'odin-boids-simulation'
 date: '2025-02-19'
-tldr: 'Web dev has been boring. I wanted to learn about Odin and Raylib. The math part to find angles for triangles was the hardest part and required some research. The Odin and Raylib portions were simple enough to figure out as I worked on the project. Learning new things is fun.'
+tldr: "Web dev has been boring so I wanted to build something to help me learn about Odin and Raylib. The math part to find the vertices for triangles was the hardest part and required some research. The Odin and Raylib portions were simple enough to figure out as I worked on the project. Learning new things is fun and sometimes it's just what you need when you're in a rut."
 tags: ['odin', 'raylib', 'simulation']
 ---
 
