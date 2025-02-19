@@ -9,6 +9,6 @@
   <a href="/" class="font-semibold mx-1 hover:text-green-500 hover:underline {currentPage === '/' ? 'text-green-500' : ''}">Home</a>
   <!-- <span class="{currentPage === '/projects' ? 'text-green-500' : ''}">/</span>
   <a href="/projects" class="font-semibold mx-1 hover:text-green-500 hover:underline {currentPage === '/projects' ? 'text-green-500' : ''}">Projects</a> -->
-  <span class="{currentPage.startsWith('/blog') ? 'text-green-500' : ''}">/</span>
-  <a href="/blog" class="font-semibold mx-1 hover:text-green-500 hover:underline {currentPage.startsWith('/blog') ? 'text-green-500' : ''}">Blog</a>
+  <!-- <span class="{currentPage.startsWith('/blog') ? 'text-green-500' : ''}">/</span>
+  <a href="/blog" class="font-semibold mx-1 hover:text-green-500 hover:underline {currentPage.startsWith('/blog') ? 'text-green-500' : ''}">Blog</a> -->
 </nav>
