@@ -55,7 +55,7 @@ I Googled around and found a forum post that helped a lot to calculate the three
 ## Performance and Possible Optimizations
 
 My current implementation is pretty brute-force as each Boid iterates over every other Boid to calculate interactions. This works well enough for me, but possible optimizations could include:
-- Spatial grids to reduce unnecessary comparisons.
+- Spatial grids to reduce unnecessary comparisons
 - k-d trees
 - GPU Acceleration through compute shaders
 - multithreading/parallelization of calculations
