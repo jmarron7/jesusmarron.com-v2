@@ -14,8 +14,8 @@
 	<Separator></Separator>
 	<Experience></Experience>
 	<Separator></Separator>
-	<!-- <Projects></Projects>
-	<Separator></Separator> -->
+	<Projects></Projects>
+	<Separator></Separator>
 	<Blog posts={posts}></Blog>
 	<Separator></Separator>
 	<Footer></Footer>

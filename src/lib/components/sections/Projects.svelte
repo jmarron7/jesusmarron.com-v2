@@ -17,7 +17,7 @@
     </ol>
   </div>
   
-  <div class="mt-12">
+  <!-- <div class="mt-12">
     <a href="/projects" target="_self" aria-label="View Project Archive" class="inline-flex items-center leading-tight font-semibold group">
       <span class="whitespace-nowrap border-b-2 border-transparent pb-px transition group-hover:border-green-500 group-hover:text-green-500 group-focus-visible:text-green-500 motion-reduce:transition-none">
         <span>
@@ -26,5 +26,5 @@
         <span class="group-hover:border-green-500 transition-transform group-hover/link:translate-x-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none">>></span>
       </span>
     </a>
-  </div>
+  </div> -->
 </section>

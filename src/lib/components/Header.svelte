@@ -32,10 +32,10 @@
           </a>
         </li>
         <li>
-          <div class="group flex items-center py-3 cursor-not-allowed">
-            <span class="nav-indicator mr-4 h-px w-8 bg-surface-400 transition-all group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none"></span>
-            <span class="nav-text text-xs font-bold uppercase tracking-widest text-surface-400 group-focus-visible:text-white">Projects (coming soon)</span>
-          </div>
+          <a class="group flex items-center py-3" href="#projects">
+            <span class="nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-surface-200 group-focus-visible:w-16 group-focus-visible:bg-surface-200 motion-reduce:transition-none {currentSection === '#projects' ? 'w-16 bg-surface-200' : 'w-8 bg-surface-300'}"></span>
+            <span class="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-white group-focus-visible:text-white {currentSection === '#projects' ? 'text-white' : 'text-surface-300'}">Projects</span>
+          </a>
         </li>
         <li>
           <a class="group flex items-center py-3" href="#blog">

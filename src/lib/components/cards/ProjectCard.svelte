@@ -25,9 +25,16 @@
   <div class="z-10 sm:col-span-6">
     <h3 class="font-medium leading-snug">
       <div>
+        {#if project.repoLink}
+        <a class="inline-flex items-baseline font-semibold leading-tight hover:text-green-500 focus-visible:text-green-500 group/link text-base" href={project.repoLink} target="_blank" rel="noreferrer noopener" aria-label={"View the repository (opens in a new tab)"}>
+          <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+          <span>{project.title}</span>
+        </a>
+        {:else}
         <span class="font-semibold leading-tight group-hover:text-green-500 focus-visible:text-green-500 group/link text-base" aria-label="{project.title}">
           {project.title}
         </span>
+        {/if}
       </div>
     </h3>
     <p class="mt-2 text-surface-200 leading-normal">
