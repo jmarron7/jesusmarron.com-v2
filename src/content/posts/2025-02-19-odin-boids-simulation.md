@@ -47,7 +47,7 @@ So, I started off simple:
 The hardest part was making the Boids steer properly. Initially, they were just moving as points, so direction didn’t matter. But once I switched to triangles, I needed to calculate angles so they faced the correct direction when turning.
 
 This meant diving into math, specifically:
-- Using sin, cos, and atan to calculate angles.
+- Using sin, cos, and atan2 to calculate angles.
 - Figuring out how to make turning feel natural rather than abrupt.
 
 I Googled around and found a forum post that helped a lot to calculate the three vertices of the triangles. I also stumbled across a [math for game dev blog post](https://pikuma.com/blog/math-for-game-developers) that I plan to dig into more later.
