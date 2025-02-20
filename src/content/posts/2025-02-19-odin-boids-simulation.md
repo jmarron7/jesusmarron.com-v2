@@ -10,7 +10,9 @@ tags: ['odin', 'raylib', 'simulation']
 
 ## Introduction
 
-Recently, I've been having trouble finding the fun in programming. I believe most of it is due to the monotony of day-to-day work, ever-changing decisions based on bureaucratic business politics, and a current lack of interest in web development. I have been wanting to challenge myself and learn a lower level programming language compared to the Typescript, Java, and even Go that I am used to. Game development is also something that I am interested in so, naturally, I found my way leaning towards using [Odin](https://odin-lang.org/) and Raylib for this project.
+Recently, I've been having trouble finding the fun in programming. I believe most of it is due to the monotony of day-to-day work, ever-changing decisions based on bureaucratic business politics, and a current lack of interest in web development. I have been wanting to challenge myself and learn a lower level programming language compared to the Typescript, Java, and even Go that I am used to. Game development is also something that I am interested in so, naturally, I found my way leaning towards using [Odin](https://odin-lang.org/) and [Raylib](https://www.raylib.com/) for this project.
+
+If you're unfamiliar, Odin is a general purpose programming language, very similar to C, that seems to be picking up popularity in game development. Raylib is a C library used for game programming. Luckily, Odin includes Raylib bindings in its `vendor` collection but there are [bindings for other languages](https://github.com/raysan5/raylib/blob/master/BINDINGS.md) as well.
 
 I had never attempted a [Boids simulation](https://en.wikipedia.org/wiki/Boids) before, but I’ve known about these types of *emergent behavior* simulations for a while — things like Particle Life, Game of Life, and Ant Colony Simulations. I had seen several videos of people implementing their own versions of Boids over the past year and I picked up on common patterns and ideas that each one had mentioned.
 
