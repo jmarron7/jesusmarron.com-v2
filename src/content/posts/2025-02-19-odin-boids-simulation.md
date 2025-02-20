@@ -66,4 +66,4 @@ That said, I’m not planning to optimize this further. I just wanted to finish 
 
 ## Final Thoughts
 
-The whole thing is a single file, about 200 lines long. I’m happy with it the way that it is and am looking forward to recreating other similar simulations. If you’re interested, check out the [GitHub repo](https://github.com/jmarron7/odin-boids).
+When I first started this project, I thought that I would have to do a lot of manual memory management but that wasn't the case at all since no entities are being added or removed during runtime. The whole thing is a single file, about 200 lines long. I’m happy with it the way that it is and am looking forward to recreating other similar simulations in Odin and other languages. If you’re interested, check out the [GitHub repo](https://github.com/jmarron7/odin-boids).
